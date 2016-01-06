@@ -6,7 +6,6 @@ public class Test {
 	static String expr2 = "contains(${result},\"true\")";
 	
 	public static void main(String[] args) {
-		System.out.println(ConditionParser.preprocess("hello", expr));
 	}
 	
 }
